@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern News Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header with sticky navigation -->
+  <header class="header">
+    <div class="logo">
+      <h1>News Hub</h1>
+    </div>
+    <nav class="nav">
+      <a href="#stocks">Stocks</a>
+      <a href="#news">News</a>
+      <a href="#sports">Sports</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Stay Updated with the Latest News</h2>
+    <p>Get your daily fix on stocks, crypto, and sports news.</p>
+    <a href="#news" class="cta-button">Read Latest News</a>
+  </section>
+
+  <!-- Main Content -->
+  <main>
+    <section id="stocks" class="content-section">
+      <h2>Stock Market Updates</h2>
+      <p>Find the latest stock market trends and analysis.</p>
+    </section>
+
+    <section id="news" class="content-section">
+      <h2>Global News</h2>
+      <p>Breaking news from around the world.</p>
+    </section>
+
+    <section id="sports" class="content-section">
+      <h2>Sports Highlights</h2>
+      <p>The latest in sports news and scores.</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 News Hub | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
